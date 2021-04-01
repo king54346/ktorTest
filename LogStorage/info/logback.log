@@ -1,0 +1,125 @@
+2021-04-01 00:05:25.735  INFO   [main           ]  Application                                        :  Autoreload is disabled because the development mode is off.
+2021-04-01 00:05:26.790  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Starting...
+2021-04-01 00:05:27.473  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Start completed.
+2021-04-01 00:05:27.525  INFO   [main           ]  org.ktorm.database                                 :  Connected to jdbc:mysql://localhost:3306/kotlin_user?serverTimezone=Hongkong, productName: MySQL, productVersion: 8.0.15, logger: org.ktorm.logging.Slf4jLoggerAdapter@66236a0a, dialect: org.ktorm.support.mysql.MySqlDialect@2e3572e8
+2021-04-01 00:05:28.240  INFO   [main           ]  org.reflections.Reflections                        :  Reflections took 131 ms to scan 1 urls, producing 10 keys and 75 values 
+2021-04-01 00:05:28.316  INFO   [main           ]  Application                                        :  Responding at http://localhost:8000
+2021-04-01 00:05:32.669  INFO   [pool-3-thread-1]  org.hibernate.validator.internal.util.Version      :  HV000001: Hibernate Validator 7.0.1.Final
+2021-04-01 00:11:55.162  INFO   [main           ]  Application                                        :  Autoreload is disabled because the development mode is off.
+2021-04-01 00:11:56.283  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Starting...
+2021-04-01 00:11:56.962  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Start completed.
+2021-04-01 00:11:57.012  INFO   [main           ]  org.ktorm.database                                 :  Connected to jdbc:mysql://localhost:3306/kotlin_user?serverTimezone=Hongkong, productName: MySQL, productVersion: 8.0.15, logger: org.ktorm.logging.Slf4jLoggerAdapter@70d63e05, dialect: org.ktorm.support.mysql.MySqlDialect@e11ecfa
+2021-04-01 00:11:57.648  INFO   [main           ]  org.reflections.Reflections                        :  Reflections took 106 ms to scan 1 urls, producing 10 keys and 75 values 
+2021-04-01 00:11:57.734  INFO   [main           ]  Application                                        :  Responding at http://localhost:8000
+2021-04-01 00:12:04.002  INFO   [pool-2-thread-1]  org.hibernate.validator.internal.util.Version      :  HV000001: Hibernate Validator 7.0.1.Final
+2021-04-01 00:21:20.369  INFO   [main           ]  Application                                        :  Autoreload is disabled because the development mode is off.
+2021-04-01 00:21:21.687  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Starting...
+2021-04-01 00:21:22.380  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Start completed.
+2021-04-01 00:21:22.531  INFO   [main           ]  org.ktorm.database                                 :  Connected to jdbc:mysql://localhost:3306/kotlin_user?serverTimezone=Hongkong, productName: MySQL, productVersion: 8.0.15, logger: org.ktorm.logging.Slf4jLoggerAdapter@e11ecfa, dialect: org.ktorm.support.mysql.MySqlDialect@485e13d7
+2021-04-01 00:21:23.657  INFO   [main           ]  org.reflections.Reflections                        :  Reflections took 118 ms to scan 1 urls, producing 10 keys and 77 values 
+2021-04-01 00:21:23.738  INFO   [main           ]  Application                                        :  Responding at http://localhost:8000
+2021-04-01 00:21:32.198  INFO   [pool-2-thread-1]  org.hibernate.validator.internal.util.Version      :  HV000001: Hibernate Validator 7.0.1.Final
+2021-04-01 09:30:30.249  INFO   [main           ]  Application                                        :  Autoreload is disabled because the development mode is off.
+2021-04-01 09:30:31.043  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Starting...
+2021-04-01 09:30:31.572  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Start completed.
+2021-04-01 09:30:31.625  INFO   [main           ]  org.ktorm.database                                 :  Connected to jdbc:mysql://localhost:3306/kotlin_user?serverTimezone=Hongkong, productName: MySQL, productVersion: 8.0.15, logger: org.ktorm.logging.Slf4jLoggerAdapter@678040b3, dialect: org.ktorm.support.mysql.MySqlDialect@17f460bb
+2021-04-01 09:30:32.151  INFO   [main           ]  org.reflections.Reflections                        :  Reflections took 91 ms to scan 1 urls, producing 10 keys and 79 values 
+2021-04-01 09:30:32.227  INFO   [main           ]  Application                                        :  Responding at http://localhost:8000
+2021-04-01 09:30:36.548  INFO   [pool-2-thread-1]  org.hibernate.validator.internal.util.Version      :  HV000001: Hibernate Validator 7.0.1.Final
+2021-04-01 09:41:26.785  INFO   [main           ]  Application                                        :  Autoreload is disabled because the development mode is off.
+2021-04-01 09:41:27.903  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Starting...
+2021-04-01 09:41:28.470  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Start completed.
+2021-04-01 09:41:28.511  INFO   [main           ]  org.ktorm.database                                 :  Connected to jdbc:mysql://localhost:3306/kotlin_user?serverTimezone=Hongkong, productName: MySQL, productVersion: 8.0.15, logger: org.ktorm.logging.Slf4jLoggerAdapter@678040b3, dialect: org.ktorm.support.mysql.MySqlDialect@17f460bb
+2021-04-01 09:41:29.268  INFO   [main           ]  org.reflections.Reflections                        :  Reflections took 158 ms to scan 1 urls, producing 10 keys and 79 values 
+2021-04-01 09:41:29.353  INFO   [main           ]  Application                                        :  Responding at http://localhost:8000
+2021-04-01 11:17:49.383  INFO   [main           ]  Application                                        :  Autoreload is disabled because the development mode is off.
+2021-04-01 11:17:50.235  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Starting...
+2021-04-01 11:17:50.755  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Start completed.
+2021-04-01 11:17:50.796  INFO   [main           ]  org.ktorm.database                                 :  Connected to jdbc:mysql://localhost:3306/kotlin_user?serverTimezone=Hongkong, productName: MySQL, productVersion: 8.0.15, logger: org.ktorm.logging.Slf4jLoggerAdapter@6b530eb9, dialect: org.ktorm.support.mysql.MySqlDialect@328572f0
+2021-04-01 11:17:51.263  INFO   [main           ]  org.reflections.Reflections                        :  Reflections took 93 ms to scan 1 urls, producing 10 keys and 77 values 
+2021-04-01 11:17:51.335  INFO   [main           ]  Application                                        :  Responding at http://localhost:8000
+2021-04-01 11:52:18.647  INFO   [main           ]  Application                                        :  Autoreload is disabled because the development mode is off.
+2021-04-01 11:52:19.444  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Starting...
+2021-04-01 11:52:20.014  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Start completed.
+2021-04-01 11:52:20.062  INFO   [main           ]  org.ktorm.database                                 :  Connected to jdbc:mysql://localhost:3306/kotlin_user?serverTimezone=Hongkong, productName: MySQL, productVersion: 8.0.15, logger: org.ktorm.logging.Slf4jLoggerAdapter@6b530eb9, dialect: org.ktorm.support.mysql.MySqlDialect@328572f0
+2021-04-01 11:52:20.583  INFO   [main           ]  org.reflections.Reflections                        :  Reflections took 83 ms to scan 1 urls, producing 10 keys and 77 values 
+2021-04-01 11:52:20.651  INFO   [main           ]  Application                                        :  Responding at http://localhost:8000
+2021-04-01 11:53:03.518  INFO   [pool-2-thread-2]  org.hibernate.validator.internal.util.Version      :  HV000001: Hibernate Validator 7.0.1.Final
+2021-04-01 11:54:45.508  INFO   [main           ]  Application                                        :  Autoreload is disabled because the development mode is off.
+2021-04-01 11:54:46.420  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Starting...
+2021-04-01 11:54:46.935  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Start completed.
+2021-04-01 11:54:46.975  INFO   [main           ]  org.ktorm.database                                 :  Connected to jdbc:mysql://localhost:3306/kotlin_user?serverTimezone=Hongkong, productName: MySQL, productVersion: 8.0.15, logger: org.ktorm.logging.Slf4jLoggerAdapter@6b530eb9, dialect: org.ktorm.support.mysql.MySqlDialect@328572f0
+2021-04-01 11:54:47.433  INFO   [main           ]  org.reflections.Reflections                        :  Reflections took 75 ms to scan 1 urls, producing 10 keys and 77 values 
+2021-04-01 11:54:47.493  INFO   [main           ]  Application                                        :  Responding at http://localhost:8000
+2021-04-01 11:55:11.501  INFO   [main           ]  Application                                        :  Autoreload is disabled because the development mode is off.
+2021-04-01 11:55:12.352  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Starting...
+2021-04-01 11:55:12.807  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Start completed.
+2021-04-01 11:55:12.847  INFO   [main           ]  org.ktorm.database                                 :  Connected to jdbc:mysql://localhost:3306/kotlin_user?serverTimezone=Hongkong, productName: MySQL, productVersion: 8.0.15, logger: org.ktorm.logging.Slf4jLoggerAdapter@6b530eb9, dialect: org.ktorm.support.mysql.MySqlDialect@328572f0
+2021-04-01 11:55:13.335  INFO   [main           ]  org.reflections.Reflections                        :  Reflections took 89 ms to scan 1 urls, producing 10 keys and 77 values 
+2021-04-01 11:55:13.417  INFO   [main           ]  Application                                        :  Responding at http://localhost:8000
+2021-04-01 11:56:25.144  INFO   [main           ]  Application                                        :  Autoreload is disabled because the development mode is off.
+2021-04-01 11:56:26.292  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Starting...
+2021-04-01 11:56:27.068  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Start completed.
+2021-04-01 11:56:27.110  INFO   [main           ]  org.ktorm.database                                 :  Connected to jdbc:mysql://localhost:3306/kotlin_user?serverTimezone=Hongkong, productName: MySQL, productVersion: 8.0.15, logger: org.ktorm.logging.Slf4jLoggerAdapter@4832f03b, dialect: org.ktorm.support.mysql.MySqlDialect@7af3874e
+2021-04-01 11:56:27.650  INFO   [main           ]  org.reflections.Reflections                        :  Reflections took 90 ms to scan 1 urls, producing 10 keys and 77 values 
+2021-04-01 11:56:27.792  INFO   [main           ]  Application                                        :  Responding at http://localhost:8000
+2021-04-01 12:01:41.630  INFO   [main           ]  Application                                        :  Autoreload is disabled because the development mode is off.
+2021-04-01 12:01:42.684  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Starting...
+2021-04-01 12:01:43.280  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Start completed.
+2021-04-01 12:01:43.329  INFO   [main           ]  org.ktorm.database                                 :  Connected to jdbc:mysql://localhost:3306/kotlin_user?serverTimezone=Hongkong, productName: MySQL, productVersion: 8.0.15, logger: org.ktorm.logging.Slf4jLoggerAdapter@5a8c93, dialect: org.ktorm.support.mysql.MySqlDialect@3bed3315
+2021-04-01 12:01:43.789  INFO   [main           ]  org.reflections.Reflections                        :  Reflections took 86 ms to scan 1 urls, producing 10 keys and 77 values 
+2021-04-01 12:01:43.861  INFO   [main           ]  Application                                        :  Responding at http://localhost:8000
+2021-04-01 12:02:52.783  INFO   [pool-2-thread-2]  org.hibernate.validator.internal.util.Version      :  HV000001: Hibernate Validator 7.0.1.Final
+2021-04-01 12:09:02.173  INFO   [main           ]  Application                                        :  Autoreload is disabled because the development mode is off.
+2021-04-01 12:09:03.127  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Starting...
+2021-04-01 12:09:03.673  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Start completed.
+2021-04-01 12:09:03.716  INFO   [main           ]  org.ktorm.database                                 :  Connected to jdbc:mysql://localhost:3306/kotlin_user?serverTimezone=Hongkong, productName: MySQL, productVersion: 8.0.15, logger: org.ktorm.logging.Slf4jLoggerAdapter@7af3874e, dialect: org.ktorm.support.mysql.MySqlDialect@5a8816cc
+2021-04-01 12:09:04.218  INFO   [main           ]  org.reflections.Reflections                        :  Reflections took 86 ms to scan 1 urls, producing 10 keys and 77 values 
+2021-04-01 12:09:04.280  INFO   [main           ]  Application                                        :  Responding at http://localhost:8000
+2021-04-01 12:29:50.471  INFO   [main           ]  Application                                        :  Autoreload is disabled because the development mode is off.
+2021-04-01 12:29:51.225  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Starting...
+2021-04-01 12:29:51.751  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Start completed.
+2021-04-01 12:29:51.794  INFO   [main           ]  org.ktorm.database                                 :  Connected to jdbc:mysql://localhost:3306/kotlin_user?serverTimezone=Hongkong, productName: MySQL, productVersion: 8.0.15, logger: org.ktorm.logging.Slf4jLoggerAdapter@6b530eb9, dialect: org.ktorm.support.mysql.MySqlDialect@328572f0
+2021-04-01 12:29:52.321  INFO   [main           ]  org.reflections.Reflections                        :  Reflections took 91 ms to scan 1 urls, producing 10 keys and 77 values 
+2021-04-01 12:29:52.398  INFO   [main           ]  Application                                        :  Responding at http://localhost:8000
+2021-04-01 12:38:24.425  INFO   [main           ]  Application                                        :  Autoreload is disabled because the development mode is off.
+2021-04-01 12:38:25.707  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Starting...
+2021-04-01 12:38:26.358  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Start completed.
+2021-04-01 12:38:26.407  INFO   [main           ]  org.ktorm.database                                 :  Connected to jdbc:mysql://localhost:3306/kotlin_user?serverTimezone=Hongkong, productName: MySQL, productVersion: 8.0.15, logger: org.ktorm.logging.Slf4jLoggerAdapter@6b530eb9, dialect: org.ktorm.support.mysql.MySqlDialect@328572f0
+2021-04-01 12:38:26.935  INFO   [main           ]  org.reflections.Reflections                        :  Reflections took 83 ms to scan 1 urls, producing 10 keys and 77 values 
+2021-04-01 12:38:27.009  INFO   [main           ]  Application                                        :  Responding at http://localhost:8000
+2021-04-01 12:48:12.105  INFO   [main           ]  Application                                        :  Autoreload is disabled because the development mode is off.
+2021-04-01 12:48:13.066  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Starting...
+2021-04-01 12:48:13.619  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Start completed.
+2021-04-01 12:48:13.662  INFO   [main           ]  org.ktorm.database                                 :  Connected to jdbc:mysql://localhost:3306/kotlin_user?serverTimezone=Hongkong, productName: MySQL, productVersion: 8.0.15, logger: org.ktorm.logging.Slf4jLoggerAdapter@5a8c93, dialect: org.ktorm.support.mysql.MySqlDialect@3bed3315
+2021-04-01 12:48:14.177  INFO   [main           ]  org.reflections.Reflections                        :  Reflections took 101 ms to scan 1 urls, producing 10 keys and 77 values 
+2021-04-01 12:48:43.612  INFO   [main           ]  Application                                        :  Responding at http://localhost:8000
+2021-04-01 12:49:38.553  INFO   [main           ]  Application                                        :  Autoreload is disabled because the development mode is off.
+2021-04-01 12:49:39.475  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Starting...
+2021-04-01 12:49:40.030  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Start completed.
+2021-04-01 12:49:40.071  INFO   [main           ]  org.ktorm.database                                 :  Connected to jdbc:mysql://localhost:3306/kotlin_user?serverTimezone=Hongkong, productName: MySQL, productVersion: 8.0.15, logger: org.ktorm.logging.Slf4jLoggerAdapter@7af3874e, dialect: org.ktorm.support.mysql.MySqlDialect@5a8816cc
+2021-04-01 12:49:40.545  INFO   [main           ]  org.reflections.Reflections                        :  Reflections took 86 ms to scan 1 urls, producing 10 keys and 77 values 
+2021-04-01 12:50:18.139  INFO   [main           ]  Application                                        :  Responding at http://localhost:8000
+2021-04-01 12:51:48.042  INFO   [main           ]  Application                                        :  Autoreload is disabled because the development mode is off.
+2021-04-01 12:51:48.938  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Starting...
+2021-04-01 12:51:49.569  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Start completed.
+2021-04-01 12:51:49.661  INFO   [main           ]  org.ktorm.database                                 :  Connected to jdbc:mysql://localhost:3306/kotlin_user?serverTimezone=Hongkong, productName: MySQL, productVersion: 8.0.15, logger: org.ktorm.logging.Slf4jLoggerAdapter@7af3874e, dialect: org.ktorm.support.mysql.MySqlDialect@5a8816cc
+2021-04-01 12:51:50.236  INFO   [main           ]  org.reflections.Reflections                        :  Reflections took 104 ms to scan 1 urls, producing 10 keys and 77 values 
+2021-04-01 12:51:50.301  INFO   [main           ]  Application                                        :  Responding at http://localhost:8000
+2021-04-01 12:53:45.727  INFO   [pool-2-thread-3]  org.hibernate.validator.internal.util.Version      :  HV000001: Hibernate Validator 7.0.1.Final
+2021-04-01 13:25:04.070  INFO   [pool-2-thread-9]  Application                                        :  Unhandled: POST - /resource, io failed
+2021-04-01 13:25:10.910  INFO   [ool-2-thread-18]  Application                                        :  Unhandled: POST - /resource, io failed
+2021-04-01 13:26:35.823  INFO   [ool-2-thread-10]  Application                                        :  Unhandled: POST - /resource, io failed
+2021-04-01 13:27:19.480  INFO   [ool-2-thread-20]  Application                                        :  Unhandled: POST - /resource, io failed
+2021-04-01 13:27:49.123  INFO   [ool-2-thread-21]  Application                                        :  Unhandled: POST - /resource, io failed
+2021-04-01 13:28:22.928  INFO   [ool-2-thread-22]  Application                                        :  Unhandled: POST - /resource, io failed
+2021-04-01 13:29:08.679  INFO   [ool-2-thread-23]  Application                                        :  Unhandled: POST - /resource, io failed
+2021-04-01 13:29:24.605  INFO   [pool-2-thread-2]  Application                                        :  Unhandled: POST - /resource, io failed
+2021-04-01 13:30:53.573  INFO   [main           ]  Application                                        :  Autoreload is disabled because the development mode is off.
+2021-04-01 13:30:54.568  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Starting...
+2021-04-01 13:30:55.219  INFO   [main           ]  com.zaxxer.hikari.HikariDataSource                 :  HikariPool-1 - Start completed.
+2021-04-01 13:30:55.280  INFO   [main           ]  org.ktorm.database                                 :  Connected to jdbc:mysql://localhost:3306/kotlin_user?serverTimezone=Hongkong, productName: MySQL, productVersion: 8.0.15, logger: org.ktorm.logging.Slf4jLoggerAdapter@5a8c93, dialect: org.ktorm.support.mysql.MySqlDialect@3bed3315
+2021-04-01 13:30:55.955  INFO   [main           ]  org.reflections.Reflections                        :  Reflections took 102 ms to scan 1 urls, producing 10 keys and 77 values 
+2021-04-01 13:30:56.033  INFO   [main           ]  Application                                        :  Responding at http://localhost:8000
+2021-04-01 13:31:03.029  INFO   [pool-2-thread-1]  org.hibernate.validator.internal.util.Version      :  HV000001: Hibernate Validator 7.0.1.Final
+2021-04-01 13:32:16.520  INFO   [pool-2-thread-1]  Application                                        :  Unhandled: PUT - /resource, io failed

@@ -1,0 +1,104 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    ext.ktorm_version="3.3.0"
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.github.jengelman.gradle.plugins:shadow:5.2.0'
+        classpath("org.jetbrains.kotlin:kotlin-noarg:$kotlin_version")
+    }
+}
+
+apply plugin: "com.github.johnrengelman.shadow"
+apply plugin: 'java'
+apply plugin: 'kotlin'
+apply plugin: 'application'
+
+//kotlin-noarg
+apply plugin: "kotlin-noarg"
+noArg {
+    annotation("com.jyf.springKtor.annotation.noArg")
+}
+group 'com.jyf'
+version '0.0.1'
+mainClassName = 'io.ktor.server.netty.EngineMain'
+
+sourceSets {
+    main.kotlin.srcDirs = main.java.srcDirs = ['src/main/kotlin']
+    test.kotlin.srcDirs = test.java.srcDirs = ['test']
+    main.resources.srcDirs = ['resources']
+    test.resources.srcDirs = ['testresources']
+}
+
+shadowJar {
+    baseName = 'BlogApp'  // jar 包名称
+    manifest {
+        attributes["Main-Class"] = "appshop.AppRunKt.main"  // jar 包的主函数
+    }
+}
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+
+repositories {
+    mavenLocal()
+    maven { url 'https://maven.aliyun.com/repository/jcenter' }  // <= here
+    maven { url 'https://maven.aliyun.com/repository/google' }
+    jcenter()
+    maven { url 'https://kotlin.bintray.com/ktor' }
+    maven { url 'https://kotlin.bintray.com/kotlin-js-wrappers' }
+}
+
+dependencies {
+    //ktorm
+    implementation "org.ktorm:ktorm-core:${ktorm_version}"
+    implementation "org.ktorm:ktorm-support-mysql:${ktorm_version}"
+//    ktorm与jackson的结合
+    implementation group: 'org.ktorm', name: 'ktorm-jackson', version: "${ktorm_version}"
+
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+//    servlet
+    implementation "io.ktor:ktor-server-netty:$ktor_version"
+    implementation "io.ktor:ktor-server-jetty:$ktor_version"
+    implementation "io.ktor:ktor-server-tomcat:$ktor_version"
+    implementation "io.ktor:ktor-server-cio:$ktor_version"
+    //httpclient
+
+
+    //log
+    implementation "ch.qos.logback:logback-classic:$logback_version"
+
+    //    freemarker模板引擎
+    implementation "io.ktor:ktor-html-builder:$ktor_version"
+    implementation "io.ktor:ktor-freemarker:$ktor_version"
+    implementation "org.jetbrains:kotlin-css-jvm:1.0.0-pre.31-kotlin-1.2.41"
+    //    implementation "io.ktor:ktor-client-core:$ktor_version"
+    //    implementation "io.ktor:ktor-client-core-jvm:$ktor_version"
+    //    implementation "io.ktor:ktor-client-apache:$ktor_version"
+    //    mysql驱动
+    implementation("mysql:mysql-connector-java:8.0.13")
+    implementation("org.kodein.di:kodein-di-framework-ktor-server-controller-jvm:7.1.0")
+    testImplementation "io.ktor:ktor-server-tests:$ktor_version"
+    implementation "io.ktor:ktor-server-sessions:$ktor_version"
+    implementation "io.ktor:ktor-websockets:$ktor_version"
+    //    数据源连接池
+    implementation group: 'com.zaxxer', name: 'HikariCP', version: '4.0.3'
+    //    captcha
+    implementation 'com.github.whvcse:easy-captcha:1.6.2'
+    //内容协商
+    implementation "io.ktor:ktor-jackson:$ktor_version"
+
+
+    //    jwt
+    implementation "io.ktor:ktor-auth-jwt:$ktor_version"
+    implementation "io.ktor:ktor-auth:$ktor_version"
+    implementation group: 'com.usthe.sureness', name: 'sureness-core', version: '1.0.0'
+
+    //参数校验
+    implementation group: 'org.hibernate', name: 'hibernate-validator', version: '7.0.1.Final'
+    implementation group: 'org.glassfish', name: 'jakarta.el', version: '4.0.1'
+    //反射
+    implementation group: 'org.reflections', name: 'reflections', version: '0.9.12'
+}
