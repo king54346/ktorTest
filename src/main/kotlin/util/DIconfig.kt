@@ -7,6 +7,9 @@ import com.mysql.cj.jdbc.*
 import com.zaxxer.hikari.*
 import org.kodein.di.*
 import org.ktorm.database.*
+import org.redisson.Redisson
+import org.redisson.api.RedissonClient
+import org.redisson.config.Config
 import kotlin.reflect.jvm.*
 
 /**
@@ -26,7 +29,7 @@ val totalDI= DI.lazy{
 val connDI = DI.Module("connDI"){
     bind<HikariDataSource>() with singleton {
         HikariDataSource(HikariConfig().apply {
-            jdbcUrl = "jdbc:mysql://localhost:3306/kotlin_user?serverTimezone=Hongkong"
+            jdbcUrl = "jdbc:mysql://localhost:3306/ktor?serverTimezone=Hongkong"
             driverClassName = Driver::class.jvmName
             password = "jinyuefeng123"
             username = "root"
@@ -35,7 +38,12 @@ val connDI = DI.Module("connDI"){
         })
     }
     bind<Database>() with singleton { Database.connect(dataSource = instance<HikariDataSource>()) }
-
+    bind<RedissonClient>() with singleton {
+        val config = Config().apply {
+            useSingleServer().address="redis://127.0.0.1:6379"
+        }
+        Redisson.create(config)
+    }
 }
 
 val daoDI = DI.Module("daoDI") {

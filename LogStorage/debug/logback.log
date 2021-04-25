@@ -5409,3 +5409,616 @@
 2021-04-01 13:34:25.344  DEBUG  [l-1 housekeeper]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Before cleanup stats (total=10, active=0, idle=10, waiting=0)
 2021-04-01 13:34:25.344  DEBUG  [l-1 housekeeper]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - After cleanup  stats (total=10, active=0, idle=10, waiting=0)
 2021-04-01 13:34:25.344  DEBUG  [l-1 housekeeper]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-04-25 14:46:49.417  DEBUG  [main           ]  appshop.util.Config                                :  DefaultProcessorManager init
+2021-04-25 14:46:49.427  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - clearTree
+2021-04-25 14:46:49.427  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - clearTree
+2021-04-25 14:46:49.578  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@726f3b58
+2021-04-25 14:46:49.593  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  HikariPool-1 - configuration:
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  allowPoolSuspension................................false
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  autoCommit................................true
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  catalog................................none
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  connectionInitSql................................none
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  connectionTestQuery................................none
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  connectionTimeout................................30000
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  dataSource................................none
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  dataSourceClassName................................none
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  dataSourceJNDI................................none
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  dataSourceProperties................................{password=<masked>}
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  driverClassName................................"com.mysql.cj.jdbc.Driver"
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  exceptionOverrideClassName................................none
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  healthCheckProperties................................{}
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  healthCheckRegistry................................none
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  idleTimeout................................600000
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  initializationFailTimeout................................1
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  isolateInternalQueries................................false
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  jdbcUrl................................jdbc:mysql://localhost:3306/kotlin_user?serverTimezone=Hongkong
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  keepaliveTime................................0
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  leakDetectionThreshold................................0
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  maxLifetime................................1800000
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  maximumPoolSize................................30
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  metricRegistry................................none
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  metricsTrackerFactory................................none
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  minimumIdle................................10
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  password................................<masked>
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  poolName................................"HikariPool-1"
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  readOnly................................false
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  registerMbeans................................false
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  scheduledExecutor................................none
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  schema................................none
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  threadFactory................................internal
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  transactionIsolation................................default
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  username................................"root"
+2021-04-25 14:46:49.609  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  validationTimeout................................5000
+2021-04-25 14:46:50.222  DEBUG  [main           ]  com.zaxxer.hikari.pool.PoolBase                    :  HikariPool-1 - Failed to create/setup connection: Unknown database 'kotlin_user'
+2021-04-25 14:46:50.222  DEBUG  [main           ]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Cannot acquire connection from data source
+java.sql.SQLSyntaxErrorException: Unknown database 'kotlin_user'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at appshop.util.DIconfigKt$connDI$1$1.invoke(DIconfig.kt:28)
+	at appshop.util.DIconfigKt$connDI$1$1.invoke(DIconfig.kt)
+	at org.kodein.di.bindings.Singleton$getFactory$1$1$1.invoke(standardBindings.kt:127)
+	at org.kodein.di.bindings.Reference$Local$Companion.invoke$kodein_di(references.kt:16)
+	at org.kodein.di.bindings.Strong$Companion.make(references.kt:31)
+	at org.kodein.di.bindings.Singleton$getFactory$1$1.invoke(standardBindings.kt:127)
+	at org.kodein.di.bindings.Singleton$getFactory$1$1.invoke(standardBindings.kt:96)
+	at org.kodein.di.bindings.StandardScopeRegistry.getOrCreate(scopes.kt:64)
+	at org.kodein.di.bindings.Singleton$getFactory$1.invoke(standardBindings.kt:127)
+	at org.kodein.di.bindings.Singleton$getFactory$1.invoke(standardBindings.kt:96)
+	at org.kodein.di.internal.DIContainerImpl$factory$1.invoke(DIContainerImpl.kt:160)
+	at org.kodein.di.DIContainer$provider$$inlined$toProvider$1.invoke(curry.kt:14)
+	at org.kodein.di.internal.DirectDIBaseImpl.Instance(DirectDIImpl.kt:30)
+	at appshop.util.DIconfigKt$connDI$1$2.invoke(DIconfig.kt:55)
+	at appshop.util.DIconfigKt$connDI$1$2.invoke(DIconfig.kt)
+	at org.kodein.di.bindings.Singleton$getFactory$1$1$1.invoke(standardBindings.kt:127)
+	at org.kodein.di.bindings.Reference$Local$Companion.invoke$kodein_di(references.kt:16)
+	at org.kodein.di.bindings.Strong$Companion.make(references.kt:31)
+	at org.kodein.di.bindings.Singleton$getFactory$1$1.invoke(standardBindings.kt:127)
+	at org.kodein.di.bindings.Singleton$getFactory$1$1.invoke(standardBindings.kt:96)
+	at org.kodein.di.bindings.StandardScopeRegistry.getOrCreate(scopes.kt:64)
+	at org.kodein.di.bindings.Singleton$getFactory$1.invoke(standardBindings.kt:127)
+	at org.kodein.di.bindings.Singleton$getFactory$1.invoke(standardBindings.kt:96)
+	at org.kodein.di.internal.DIContainerImpl$factory$1.invoke(DIContainerImpl.kt:160)
+	at org.kodein.di.DIContainer$provider$$inlined$toProvider$1.invoke(curry.kt:14)
+	at org.kodein.di.internal.DirectDIBaseImpl.Instance(DirectDIImpl.kt:30)
+	at appshop.util.DIconfigKt$db$2.invoke(DIconfig.kt:55)
+	at appshop.util.DIconfigKt$db$2.invoke(DIconfig.kt)
+	at org.kodein.di.DIAwareKt$newInstance$1.invoke(DIAware.kt:268)
+	at org.kodein.di.DIAwareKt$newInstance$1.invoke(DIAware.kt)
+	at org.kodein.di.DIProperty$provideDelegate$1.invoke(properties.kt:46)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+	at appshop.util.DIconfigKt.getDb(DIconfig.kt)
+	at appshop.modules.sys.dao.AuthResourceDao.getEnableResource(AuthResourceDao.kt:23)
+	at appshop.modules.sys.service.impl.ResourceServiceImpl.getAllEnableResourcePath(ResourceServiceImpl.kt:123)
+	at appshop.util.DatabasePathTreeProvider.providePathData(SurenessConfig.kt:139)
+	at com.usthe.sureness.matcher.DefaultPathRoleMatcher.buildTree(DefaultPathRoleMatcher.java:69)
+	at appshop.util.Config$Companion.pathRoleMatcher(SurenessConfig.kt:88)
+	at appshop.util.Config.<init>(SurenessConfig.kt:44)
+	at appshop.util.SurenessConfigKt.SurenessConfig(SurenessConfig.kt:38)
+	at appshop.AppRunKt.module(AppRun.kt:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Static.call(CallerImpl.kt:106)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:112)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.callFunctionWithInjection(ApplicationEngineEnvironmentReloading.kt:406)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.executeModuleFunction(ApplicationEngineEnvironmentReloading.kt:360)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.access$executeModuleFunction(ApplicationEngineEnvironmentReloading.kt:35)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:35)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartupFor(ApplicationEngineEnvironmentReloading.kt:335)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.launchModuleByName(ApplicationEngineEnvironmentReloading.kt:310)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.access$launchModuleByName(ApplicationEngineEnvironmentReloading.kt:35)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:299)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:35)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartup(ApplicationEngineEnvironmentReloading.kt:317)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.instantiateAndConfigureApplication(ApplicationEngineEnvironmentReloading.kt:297)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.createApplication(ApplicationEngineEnvironmentReloading.kt:138)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.start(ApplicationEngineEnvironmentReloading.kt:270)
+	at io.ktor.server.tomcat.TomcatApplicationEngine.start(TomcatApplicationEngine.kt:118)
+	at io.ktor.server.tomcat.EngineMain.main(EngineMain.kt:28)
+	at appshop.AppRunKt.main(AppRun.kt:25)
+2021-04-25 14:57:38.565  DEBUG  [main           ]  appshop.util.Config                                :  DefaultProcessorManager init
+2021-04-25 14:57:38.565  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - clearTree
+2021-04-25 14:57:38.565  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - clearTree
+2021-04-25 14:57:38.746  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@726f3b58
+2021-04-25 14:57:38.746  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  HikariPool-1 - configuration:
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  allowPoolSuspension................................false
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  autoCommit................................true
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  catalog................................none
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  connectionInitSql................................none
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  connectionTestQuery................................none
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  connectionTimeout................................30000
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  dataSource................................none
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  dataSourceClassName................................none
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  dataSourceJNDI................................none
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  dataSourceProperties................................{password=<masked>}
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  driverClassName................................"com.mysql.cj.jdbc.Driver"
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  exceptionOverrideClassName................................none
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  healthCheckProperties................................{}
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  healthCheckRegistry................................none
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  idleTimeout................................600000
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  initializationFailTimeout................................1
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  isolateInternalQueries................................false
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  jdbcUrl................................jdbc:mysql://localhost:3306/ktor?serverTimezone=Hongkong
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  keepaliveTime................................0
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  leakDetectionThreshold................................0
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  maxLifetime................................1800000
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  maximumPoolSize................................30
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  metricRegistry................................none
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  metricsTrackerFactory................................none
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  minimumIdle................................10
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  password................................<masked>
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  poolName................................"HikariPool-1"
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  readOnly................................false
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  registerMbeans................................false
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  scheduledExecutor................................none
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  schema................................none
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  threadFactory................................internal
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  transactionIsolation................................default
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  username................................"root"
+2021-04-25 14:57:38.765  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  validationTimeout................................5000
+2021-04-25 14:57:39.244  DEBUG  [main           ]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73809e7
+2021-04-25 14:57:39.360  DEBUG  [l-1 housekeeper]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-04-25 14:57:39.360  DEBUG  [l-1 housekeeper]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-04-25 14:57:39.366  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@667b5064
+2021-04-25 14:57:39.382  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1210f779
+2021-04-25 14:57:39.398  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35508360
+2021-04-25 14:57:39.398  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2648c1fe
+2021-04-25 14:57:39.413  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@358ea52e
+2021-04-25 14:57:39.429  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c058389
+2021-04-25 14:57:39.429  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29df8da5
+2021-04-25 14:57:39.445  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a78e21c
+2021-04-25 14:57:39.467  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30739ade
+2021-04-25 14:57:39.467  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2021-04-25 14:57:39.545  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_resource.id as auth_resource_id, auth_resource.name as auth_resource_name, auth_resource.code as auth_resource_code, auth_resource.description as auth_resource_description, auth_resource.`METHOD` as auth_resource_method, auth_resource.type as auth_resource_type, auth_resource.uri as auth_resource_uri, auth_resource.status as auth_resource_status, auth_resource.gmt_create as auth_resource_gmt_create, auth_resource.gmt_update as auth_resource_gmt_update from auth_resource where auth_resource.status = ? 
+2021-04-25 14:57:39.545  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [1(int)]
+2021-04-25 14:57:39.567  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 8
+2021-04-25 14:57:39.583  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:57:39.583  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [103(bigint)]
+2021-04-25 14:57:39.583  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 2
+2021-04-25 14:57:39.598  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:39.598  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:57:39.598  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:39.598  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:39.598  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [102(bigint), 0(int), 1(int)]
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [104(bigint)]
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 2
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [102(bigint), 0(int), 1(int)]
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [105(bigint)]
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [106(bigint)]
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 3
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:39.614  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [102(bigint), 0(int), 1(int)]
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [103(bigint), 0(int), 1(int)]
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [107(bigint)]
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 2
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [102(bigint), 0(int), 1(int)]
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [108(bigint)]
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 2
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [102(bigint), 0(int), 1(int)]
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [109(bigint)]
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:39.629  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:57:39.645  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:39.645  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:57:39.645  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [110(bigint)]
+2021-04-25 14:57:39.645  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 3
+2021-04-25 14:57:39.645  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:39.645  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:57:39.645  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:39.645  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:39.645  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [102(bigint), 0(int), 1(int)]
+2021-04-25 14:57:39.645  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:39.645  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:39.645  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [103(bigint), 0(int), 1(int)]
+2021-04-25 14:57:39.645  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:39.645  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_resource.id as auth_resource_id, auth_resource.name as auth_resource_name, auth_resource.code as auth_resource_code, auth_resource.description as auth_resource_description, auth_resource.`METHOD` as auth_resource_method, auth_resource.type as auth_resource_type, auth_resource.uri as auth_resource_uri, auth_resource.status as auth_resource_status, auth_resource.gmt_create as auth_resource_gmt_create, auth_resource.gmt_update as auth_resource_gmt_update from auth_resource where auth_resource.status = ? order by auth_resource.id 
+2021-04-25 14:57:39.645  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [9(int)]
+2021-04-25 14:57:39.645  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 7
+2021-04-25 14:57:39.645  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - start buildTree...
+2021-04-25 14:57:39.645  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - clearTree
+2021-04-25 14:57:39.645  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - buildTree finish
+2021-04-25 14:57:39.661  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - start buildTree...
+2021-04-25 14:57:39.661  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - clearTree
+2021-04-25 14:57:39.661  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - buildTree finish
+2021-04-25 14:57:39.661  DEBUG  [main           ]  appshop.util.Config                                :  DefaultPathRoleMatcher init
+2021-04-25 14:57:39.661  DEBUG  [main           ]  appshop.util.Config                                :  SurenessSubjectFactory init
+2021-04-25 14:57:39.667  DEBUG  [main           ]  appshop.util.Config                                :  SurenessSecurityManager init
+2021-04-25 14:57:39.683  DEBUG  [main           ]  org.reflections.Reflections                        :  going to scan these urls: [file:/C:/Users/Administrator/Desktop/ktorTest/build/classes/kotlin/main/]
+2021-04-25 14:57:39.767  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.coroutines.jvm.internal.ContinuationImpl -> kotlin.coroutines.jvm.internal.SuspendLambda
+2021-04-25 14:57:39.767  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.coroutines.jvm.internal.BaseContinuationImpl -> kotlin.coroutines.jvm.internal.ContinuationImpl
+2021-04-25 14:57:39.767  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.coroutines.Continuation -> kotlin.coroutines.jvm.internal.BaseContinuationImpl
+2021-04-25 14:57:39.767  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.coroutines.jvm.internal.CoroutineStackFrame -> kotlin.coroutines.jvm.internal.BaseContinuationImpl
+2021-04-25 14:57:39.767  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype java.io.Serializable -> kotlin.coroutines.jvm.internal.BaseContinuationImpl
+2021-04-25 14:57:39.767  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.jvm.internal.FunctionBase -> kotlin.coroutines.jvm.internal.SuspendLambda
+2021-04-25 14:57:39.767  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.Function -> kotlin.jvm.internal.FunctionBase
+2021-04-25 14:57:39.767  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.coroutines.jvm.internal.SuspendFunction -> kotlin.coroutines.jvm.internal.SuspendLambda
+2021-04-25 14:57:39.767  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.Function -> kotlin.jvm.functions.Function3
+2021-04-25 14:57:39.767  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.Function -> kotlin.jvm.functions.Function1
+2021-04-25 14:57:39.767  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype java.util.AbstractMap -> java.util.HashMap
+2021-04-25 14:57:39.767  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype java.util.Map -> java.util.AbstractMap
+2021-04-25 14:57:39.767  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype java.util.Map -> java.util.HashMap
+2021-04-25 14:57:39.767  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype java.lang.Cloneable -> java.util.HashMap
+2021-04-25 14:57:39.767  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype java.io.Serializable -> java.util.HashMap
+2021-04-25 14:57:39.767  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.Function -> kotlin.jvm.functions.Function2
+2021-04-25 14:57:39.767  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.jvm.internal.FunctionBase -> kotlin.jvm.internal.Lambda
+2021-04-25 14:57:39.767  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.Function -> kotlin.jvm.internal.FunctionBase
+2021-04-25 14:57:39.767  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype java.io.Serializable -> kotlin.jvm.internal.Lambda
+2021-04-25 14:57:50.075  DEBUG  [main           ]  appshop.util.Config                                :  DefaultProcessorManager init
+2021-04-25 14:57:50.075  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - clearTree
+2021-04-25 14:57:50.075  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - clearTree
+2021-04-25 14:57:50.190  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@726f3b58
+2021-04-25 14:57:50.206  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  HikariPool-1 - configuration:
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  allowPoolSuspension................................false
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  autoCommit................................true
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  catalog................................none
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  connectionInitSql................................none
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  connectionTestQuery................................none
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  connectionTimeout................................30000
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  dataSource................................none
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  dataSourceClassName................................none
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  dataSourceJNDI................................none
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  dataSourceProperties................................{password=<masked>}
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  driverClassName................................"com.mysql.cj.jdbc.Driver"
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  exceptionOverrideClassName................................none
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  healthCheckProperties................................{}
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  healthCheckRegistry................................none
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  idleTimeout................................600000
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  initializationFailTimeout................................1
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  isolateInternalQueries................................false
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  jdbcUrl................................jdbc:mysql://localhost:3306/ktor?serverTimezone=Hongkong
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  keepaliveTime................................0
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  leakDetectionThreshold................................0
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  maxLifetime................................1800000
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  maximumPoolSize................................30
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  metricRegistry................................none
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  metricsTrackerFactory................................none
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  minimumIdle................................10
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  password................................<masked>
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  poolName................................"HikariPool-1"
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  readOnly................................false
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  registerMbeans................................false
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  scheduledExecutor................................none
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  schema................................none
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  threadFactory................................internal
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  transactionIsolation................................default
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  username................................"root"
+2021-04-25 14:57:50.222  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  validationTimeout................................5000
+2021-04-25 14:57:50.623  DEBUG  [main           ]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b920bdc
+2021-04-25 14:57:50.733  DEBUG  [l-1 housekeeper]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-04-25 14:57:50.734  DEBUG  [l-1 housekeeper]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-04-25 14:57:50.747  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@101721d5
+2021-04-25 14:57:50.760  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@512a2bee
+2021-04-25 14:57:50.774  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3105d4a1
+2021-04-25 14:57:50.785  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c53de2a
+2021-04-25 14:57:50.796  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@354b8915
+2021-04-25 14:57:50.810  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24f3b973
+2021-04-25 14:57:50.823  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@416213d0
+2021-04-25 14:57:50.837  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@615e8eb1
+2021-04-25 14:57:50.847  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d998c91
+2021-04-25 14:57:50.847  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2021-04-25 14:57:50.949  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_resource.id as auth_resource_id, auth_resource.name as auth_resource_name, auth_resource.code as auth_resource_code, auth_resource.description as auth_resource_description, auth_resource.`METHOD` as auth_resource_method, auth_resource.type as auth_resource_type, auth_resource.uri as auth_resource_uri, auth_resource.status as auth_resource_status, auth_resource.gmt_create as auth_resource_gmt_create, auth_resource.gmt_update as auth_resource_gmt_update from auth_resource where auth_resource.status = ? 
+2021-04-25 14:57:50.950  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [1(int)]
+2021-04-25 14:57:50.981  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 8
+2021-04-25 14:57:51.002  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:57:51.002  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [103(bigint)]
+2021-04-25 14:57:51.004  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 2
+2021-04-25 14:57:51.018  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:51.018  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:57:51.020  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:51.021  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:51.021  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [102(bigint), 0(int), 1(int)]
+2021-04-25 14:57:51.022  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:51.023  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:57:51.023  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [104(bigint)]
+2021-04-25 14:57:51.025  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 2
+2021-04-25 14:57:51.026  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:51.026  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:57:51.027  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:51.027  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:51.027  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [102(bigint), 0(int), 1(int)]
+2021-04-25 14:57:51.029  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:51.030  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:57:51.030  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [105(bigint)]
+2021-04-25 14:57:51.031  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:51.032  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:51.032  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:57:51.033  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:51.034  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:57:51.034  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [106(bigint)]
+2021-04-25 14:57:51.035  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 3
+2021-04-25 14:57:51.037  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:51.037  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:57:51.038  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:51.039  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:51.039  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [102(bigint), 0(int), 1(int)]
+2021-04-25 14:57:51.040  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:51.041  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:51.041  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [103(bigint), 0(int), 1(int)]
+2021-04-25 14:57:51.042  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:51.043  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:57:51.043  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [107(bigint)]
+2021-04-25 14:57:51.044  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 2
+2021-04-25 14:57:51.045  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:51.046  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:57:51.047  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:51.049  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:51.049  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [102(bigint), 0(int), 1(int)]
+2021-04-25 14:57:51.050  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:51.051  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:57:51.051  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [108(bigint)]
+2021-04-25 14:57:51.052  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 2
+2021-04-25 14:57:51.054  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:51.054  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:57:51.055  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:51.056  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:51.056  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [102(bigint), 0(int), 1(int)]
+2021-04-25 14:57:51.063  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:51.064  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:57:51.064  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [109(bigint)]
+2021-04-25 14:57:51.065  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:51.066  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:51.066  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:57:51.067  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:51.068  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:57:51.068  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [110(bigint)]
+2021-04-25 14:57:51.069  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 3
+2021-04-25 14:57:51.071  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:51.071  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:57:51.072  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:51.073  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:51.073  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [102(bigint), 0(int), 1(int)]
+2021-04-25 14:57:51.075  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:51.075  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:57:51.075  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [103(bigint), 0(int), 1(int)]
+2021-04-25 14:57:51.077  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:57:51.080  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_resource.id as auth_resource_id, auth_resource.name as auth_resource_name, auth_resource.code as auth_resource_code, auth_resource.description as auth_resource_description, auth_resource.`METHOD` as auth_resource_method, auth_resource.type as auth_resource_type, auth_resource.uri as auth_resource_uri, auth_resource.status as auth_resource_status, auth_resource.gmt_create as auth_resource_gmt_create, auth_resource.gmt_update as auth_resource_gmt_update from auth_resource where auth_resource.status = ? order by auth_resource.id 
+2021-04-25 14:57:51.081  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [9(int)]
+2021-04-25 14:57:51.083  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 7
+2021-04-25 14:57:51.086  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - start buildTree...
+2021-04-25 14:57:51.086  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - clearTree
+2021-04-25 14:57:51.088  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - buildTree finish
+2021-04-25 14:57:51.089  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - start buildTree...
+2021-04-25 14:57:51.089  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - clearTree
+2021-04-25 14:57:51.090  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - buildTree finish
+2021-04-25 14:57:51.090  DEBUG  [main           ]  appshop.util.Config                                :  DefaultPathRoleMatcher init
+2021-04-25 14:57:51.092  DEBUG  [main           ]  appshop.util.Config                                :  SurenessSubjectFactory init
+2021-04-25 14:57:51.104  DEBUG  [main           ]  appshop.util.Config                                :  SurenessSecurityManager init
+2021-04-25 14:57:51.116  DEBUG  [main           ]  org.reflections.Reflections                        :  going to scan these urls: [file:/C:/Users/Administrator/Desktop/ktorTest/build/classes/kotlin/main/]
+2021-04-25 14:57:51.204  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.coroutines.jvm.internal.ContinuationImpl -> kotlin.coroutines.jvm.internal.SuspendLambda
+2021-04-25 14:57:51.204  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.coroutines.jvm.internal.BaseContinuationImpl -> kotlin.coroutines.jvm.internal.ContinuationImpl
+2021-04-25 14:57:51.204  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.coroutines.Continuation -> kotlin.coroutines.jvm.internal.BaseContinuationImpl
+2021-04-25 14:57:51.204  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.coroutines.jvm.internal.CoroutineStackFrame -> kotlin.coroutines.jvm.internal.BaseContinuationImpl
+2021-04-25 14:57:51.204  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype java.io.Serializable -> kotlin.coroutines.jvm.internal.BaseContinuationImpl
+2021-04-25 14:57:51.204  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.jvm.internal.FunctionBase -> kotlin.coroutines.jvm.internal.SuspendLambda
+2021-04-25 14:57:51.204  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.Function -> kotlin.jvm.internal.FunctionBase
+2021-04-25 14:57:51.204  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.coroutines.jvm.internal.SuspendFunction -> kotlin.coroutines.jvm.internal.SuspendLambda
+2021-04-25 14:57:51.204  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.Function -> kotlin.jvm.functions.Function3
+2021-04-25 14:57:51.205  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.Function -> kotlin.jvm.functions.Function1
+2021-04-25 14:57:51.205  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype java.util.AbstractMap -> java.util.HashMap
+2021-04-25 14:57:51.205  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype java.util.Map -> java.util.AbstractMap
+2021-04-25 14:57:51.205  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype java.util.Map -> java.util.HashMap
+2021-04-25 14:57:51.205  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype java.lang.Cloneable -> java.util.HashMap
+2021-04-25 14:57:51.205  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype java.io.Serializable -> java.util.HashMap
+2021-04-25 14:57:51.205  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.Function -> kotlin.jvm.functions.Function2
+2021-04-25 14:57:51.205  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.jvm.internal.FunctionBase -> kotlin.jvm.internal.Lambda
+2021-04-25 14:57:51.205  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.Function -> kotlin.jvm.internal.FunctionBase
+2021-04-25 14:57:51.205  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype java.io.Serializable -> kotlin.jvm.internal.Lambda
+2021-04-25 14:59:14.536  DEBUG  [main           ]  appshop.util.Config                                :  DefaultProcessorManager init
+2021-04-25 14:59:14.536  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - clearTree
+2021-04-25 14:59:14.536  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - clearTree
+2021-04-25 14:59:14.676  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@726f3b58
+2021-04-25 14:59:14.689  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  HikariPool-1 - configuration:
+2021-04-25 14:59:14.694  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  allowPoolSuspension................................false
+2021-04-25 14:59:14.695  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  autoCommit................................true
+2021-04-25 14:59:14.695  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  catalog................................none
+2021-04-25 14:59:14.695  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  connectionInitSql................................none
+2021-04-25 14:59:14.696  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  connectionTestQuery................................none
+2021-04-25 14:59:14.696  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  connectionTimeout................................30000
+2021-04-25 14:59:14.696  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  dataSource................................none
+2021-04-25 14:59:14.696  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  dataSourceClassName................................none
+2021-04-25 14:59:14.696  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  dataSourceJNDI................................none
+2021-04-25 14:59:14.697  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  dataSourceProperties................................{password=<masked>}
+2021-04-25 14:59:14.697  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  driverClassName................................"com.mysql.cj.jdbc.Driver"
+2021-04-25 14:59:14.697  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  exceptionOverrideClassName................................none
+2021-04-25 14:59:14.698  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  healthCheckProperties................................{}
+2021-04-25 14:59:14.698  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  healthCheckRegistry................................none
+2021-04-25 14:59:14.698  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  idleTimeout................................600000
+2021-04-25 14:59:14.699  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  initializationFailTimeout................................1
+2021-04-25 14:59:14.701  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  isolateInternalQueries................................false
+2021-04-25 14:59:14.701  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  jdbcUrl................................jdbc:mysql://localhost:3306/ktor?serverTimezone=Hongkong
+2021-04-25 14:59:14.701  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  keepaliveTime................................0
+2021-04-25 14:59:14.702  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  leakDetectionThreshold................................0
+2021-04-25 14:59:14.702  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  maxLifetime................................1800000
+2021-04-25 14:59:14.702  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  maximumPoolSize................................30
+2021-04-25 14:59:14.702  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  metricRegistry................................none
+2021-04-25 14:59:14.702  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  metricsTrackerFactory................................none
+2021-04-25 14:59:14.703  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  minimumIdle................................10
+2021-04-25 14:59:14.703  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  password................................<masked>
+2021-04-25 14:59:14.703  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  poolName................................"HikariPool-1"
+2021-04-25 14:59:14.704  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  readOnly................................false
+2021-04-25 14:59:14.704  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  registerMbeans................................false
+2021-04-25 14:59:14.705  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  scheduledExecutor................................none
+2021-04-25 14:59:14.705  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  schema................................none
+2021-04-25 14:59:14.705  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  threadFactory................................internal
+2021-04-25 14:59:14.705  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  transactionIsolation................................default
+2021-04-25 14:59:14.705  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  username................................"root"
+2021-04-25 14:59:14.705  DEBUG  [main           ]  com.zaxxer.hikari.HikariConfig                     :  validationTimeout................................5000
+2021-04-25 14:59:15.139  DEBUG  [main           ]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b920bdc
+2021-04-25 14:59:15.243  DEBUG  [l-1 housekeeper]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2021-04-25 14:59:15.244  DEBUG  [l-1 housekeeper]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2021-04-25 14:59:15.261  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26694b39
+2021-04-25 14:59:15.276  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67544102
+2021-04-25 14:59:15.290  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77bbe4d
+2021-04-25 14:59:15.303  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e890390
+2021-04-25 14:59:15.314  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@335c58f
+2021-04-25 14:59:15.327  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b81180
+2021-04-25 14:59:15.342  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@693d21b8
+2021-04-25 14:59:15.354  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56a2bb06
+2021-04-25 14:59:15.367  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b46e6a1
+2021-04-25 14:59:15.367  DEBUG  [onnection adder]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2021-04-25 14:59:15.587  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_resource.id as auth_resource_id, auth_resource.name as auth_resource_name, auth_resource.code as auth_resource_code, auth_resource.description as auth_resource_description, auth_resource.`METHOD` as auth_resource_method, auth_resource.type as auth_resource_type, auth_resource.uri as auth_resource_uri, auth_resource.status as auth_resource_status, auth_resource.gmt_create as auth_resource_gmt_create, auth_resource.gmt_update as auth_resource_gmt_update from auth_resource where auth_resource.status = ? 
+2021-04-25 14:59:15.587  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [1(int)]
+2021-04-25 14:59:15.625  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 8
+2021-04-25 14:59:15.661  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:59:15.661  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [103(bigint)]
+2021-04-25 14:59:15.663  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 2
+2021-04-25 14:59:15.668  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:59:15.668  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:59:15.684  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:59:15.684  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:59:15.684  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [102(bigint), 0(int), 1(int)]
+2021-04-25 14:59:15.684  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:59:15.684  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:59:15.684  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [104(bigint)]
+2021-04-25 14:59:15.684  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 2
+2021-04-25 14:59:15.684  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:59:15.684  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:59:15.684  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:59:15.684  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:59:15.684  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [102(bigint), 0(int), 1(int)]
+2021-04-25 14:59:15.684  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:59:15.684  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:59:15.684  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [105(bigint)]
+2021-04-25 14:59:15.700  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:59:15.700  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:59:15.700  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:59:15.700  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:59:15.700  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:59:15.700  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [106(bigint)]
+2021-04-25 14:59:15.700  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 3
+2021-04-25 14:59:15.700  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:59:15.700  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:59:15.700  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:59:15.700  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:59:15.700  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [102(bigint), 0(int), 1(int)]
+2021-04-25 14:59:15.700  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:59:15.700  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:59:15.700  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [103(bigint), 0(int), 1(int)]
+2021-04-25 14:59:15.700  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:59:15.700  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:59:15.700  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [107(bigint)]
+2021-04-25 14:59:15.716  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 2
+2021-04-25 14:59:15.716  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:59:15.716  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:59:15.716  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:59:15.716  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:59:15.716  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [102(bigint), 0(int), 1(int)]
+2021-04-25 14:59:15.716  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:59:15.716  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:59:15.716  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [108(bigint)]
+2021-04-25 14:59:15.716  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 2
+2021-04-25 14:59:15.716  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:59:15.716  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:59:15.716  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:59:15.716  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:59:15.716  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [102(bigint), 0(int), 1(int)]
+2021-04-25 14:59:15.731  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:59:15.731  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:59:15.731  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [109(bigint)]
+2021-04-25 14:59:15.731  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:59:15.731  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:59:15.731  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:59:15.731  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:59:15.731  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role_resource_bind.id as auth_role_resource_bind_id, auth_role_resource_bind.resource_id as auth_role_resource_bind_resource_id, auth_role_resource_bind.role_id as auth_role_resource_bind_role_id, auth_role_resource_bind.gmt_create as auth_role_resource_bind_gmt_create, auth_role_resource_bind.gmt_update as auth_role_resource_bind_gmt_update from auth_role_resource_bind where auth_role_resource_bind.resource_id = ? 
+2021-04-25 14:59:15.731  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [110(bigint)]
+2021-04-25 14:59:15.731  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 3
+2021-04-25 14:59:15.731  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:59:15.731  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [100(bigint), 0(int), 1(int)]
+2021-04-25 14:59:15.731  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:59:15.731  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:59:15.731  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [102(bigint), 0(int), 1(int)]
+2021-04-25 14:59:15.747  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:59:15.747  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_role.id as auth_role_id, auth_role.name as auth_role_name, auth_role.code as auth_role_code, auth_role.status as auth_role_status, auth_role.description as auth_role_description, auth_role.gmt_create as auth_role_gmt_create, auth_role.gmt_update as auth_role_gmt_update from auth_role where auth_role.id = ? limit ?, ? 
+2021-04-25 14:59:15.747  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [103(bigint), 0(int), 1(int)]
+2021-04-25 14:59:15.747  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 1
+2021-04-25 14:59:15.747  DEBUG  [main           ]  org.ktorm.database                                 :  SQL: select auth_resource.id as auth_resource_id, auth_resource.name as auth_resource_name, auth_resource.code as auth_resource_code, auth_resource.description as auth_resource_description, auth_resource.`METHOD` as auth_resource_method, auth_resource.type as auth_resource_type, auth_resource.uri as auth_resource_uri, auth_resource.status as auth_resource_status, auth_resource.gmt_create as auth_resource_gmt_create, auth_resource.gmt_update as auth_resource_gmt_update from auth_resource where auth_resource.status = ? order by auth_resource.id 
+2021-04-25 14:59:15.747  DEBUG  [main           ]  org.ktorm.database                                 :  Parameters: [9(int)]
+2021-04-25 14:59:15.747  DEBUG  [main           ]  org.ktorm.database                                 :  Results: 7
+2021-04-25 14:59:15.763  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - start buildTree...
+2021-04-25 14:59:15.763  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - clearTree
+2021-04-25 14:59:15.763  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - buildTree finish
+2021-04-25 14:59:15.763  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - start buildTree...
+2021-04-25 14:59:15.763  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - clearTree
+2021-04-25 14:59:15.763  DEBUG  [main           ]  com.usthe.sureness.matcher.util.TirePathTree       :  sureness - buildTree finish
+2021-04-25 14:59:15.763  DEBUG  [main           ]  appshop.util.Config                                :  DefaultPathRoleMatcher init
+2021-04-25 14:59:15.763  DEBUG  [main           ]  appshop.util.Config                                :  SurenessSubjectFactory init
+2021-04-25 14:59:15.802  DEBUG  [main           ]  appshop.util.Config                                :  SurenessSecurityManager init
+2021-04-25 14:59:15.821  DEBUG  [main           ]  org.reflections.Reflections                        :  going to scan these urls: [file:/C:/Users/Administrator/Desktop/ktorTest/build/classes/kotlin/main/]
+2021-04-25 14:59:15.934  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.coroutines.jvm.internal.ContinuationImpl -> kotlin.coroutines.jvm.internal.SuspendLambda
+2021-04-25 14:59:15.934  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.coroutines.jvm.internal.BaseContinuationImpl -> kotlin.coroutines.jvm.internal.ContinuationImpl
+2021-04-25 14:59:15.934  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.coroutines.Continuation -> kotlin.coroutines.jvm.internal.BaseContinuationImpl
+2021-04-25 14:59:15.934  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.coroutines.jvm.internal.CoroutineStackFrame -> kotlin.coroutines.jvm.internal.BaseContinuationImpl
+2021-04-25 14:59:15.934  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype java.io.Serializable -> kotlin.coroutines.jvm.internal.BaseContinuationImpl
+2021-04-25 14:59:15.934  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.jvm.internal.FunctionBase -> kotlin.coroutines.jvm.internal.SuspendLambda
+2021-04-25 14:59:15.934  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.Function -> kotlin.jvm.internal.FunctionBase
+2021-04-25 14:59:15.934  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.coroutines.jvm.internal.SuspendFunction -> kotlin.coroutines.jvm.internal.SuspendLambda
+2021-04-25 14:59:15.934  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.Function -> kotlin.jvm.functions.Function3
+2021-04-25 14:59:15.934  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.Function -> kotlin.jvm.functions.Function1
+2021-04-25 14:59:15.934  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype java.util.AbstractMap -> java.util.HashMap
+2021-04-25 14:59:15.942  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype java.util.Map -> java.util.AbstractMap
+2021-04-25 14:59:15.942  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype java.util.Map -> java.util.HashMap
+2021-04-25 14:59:15.942  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype java.lang.Cloneable -> java.util.HashMap
+2021-04-25 14:59:15.942  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype java.io.Serializable -> java.util.HashMap
+2021-04-25 14:59:15.942  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.Function -> kotlin.jvm.functions.Function2
+2021-04-25 14:59:15.942  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.jvm.internal.FunctionBase -> kotlin.jvm.internal.Lambda
+2021-04-25 14:59:15.942  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype kotlin.Function -> kotlin.jvm.internal.FunctionBase
+2021-04-25 14:59:15.942  DEBUG  [main           ]  org.reflections.Reflections                        :  expanded subtype java.io.Serializable -> kotlin.jvm.internal.Lambda
+2021-04-25 14:59:45.250  DEBUG  [l-1 housekeeper]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Before cleanup stats (total=10, active=0, idle=10, waiting=0)
+2021-04-25 14:59:45.250  DEBUG  [l-1 housekeeper]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - After cleanup  stats (total=10, active=0, idle=10, waiting=0)
+2021-04-25 14:59:45.250  DEBUG  [l-1 housekeeper]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-04-25 15:00:15.251  DEBUG  [l-1 housekeeper]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Before cleanup stats (total=10, active=0, idle=10, waiting=0)
+2021-04-25 15:00:15.251  DEBUG  [l-1 housekeeper]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - After cleanup  stats (total=10, active=0, idle=10, waiting=0)
+2021-04-25 15:00:15.251  DEBUG  [l-1 housekeeper]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-04-25 15:00:45.261  DEBUG  [l-1 housekeeper]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Before cleanup stats (total=10, active=0, idle=10, waiting=0)
+2021-04-25 15:00:45.262  DEBUG  [l-1 housekeeper]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - After cleanup  stats (total=10, active=0, idle=10, waiting=0)
+2021-04-25 15:00:45.262  DEBUG  [l-1 housekeeper]  com.zaxxer.hikari.pool.HikariPool                  :  HikariPool-1 - Fill pool skipped, pool is at sufficient level.

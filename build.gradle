@@ -2,7 +2,7 @@ buildscript {
     repositories {
         jcenter()
     }
-    ext.ktorm_version="3.3.0"
+    ext.ktorm_version = "3.3.0"
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath 'com.github.jengelman.gradle.plugins:shadow:5.2.0'
@@ -30,7 +30,6 @@ sourceSets {
     main.resources.srcDirs = ['resources']
     test.resources.srcDirs = ['testresources']
 }
-
 shadowJar {
     baseName = 'BlogApp'  // jar 包名称
     manifest {
@@ -38,9 +37,11 @@ shadowJar {
     }
 }
 compileKotlin {
+
+}
+compileTestKotlin{
     kotlinOptions.jvmTarget = "1.8"
 }
-
 repositories {
     mavenLocal()
     maven { url 'https://maven.aliyun.com/repository/jcenter' }  // <= here
@@ -101,4 +102,6 @@ dependencies {
     implementation group: 'org.glassfish', name: 'jakarta.el', version: '4.0.1'
     //反射
     implementation group: 'org.reflections', name: 'reflections', version: '0.9.12'
+    //redis连接
+    implementation group: 'org.redisson', name: 'redisson', version: '3.15.4'
 }

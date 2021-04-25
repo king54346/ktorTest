@@ -6,6 +6,8 @@ import appshop.modules.sys.po.*
 import appshop.modules.sys.service.impl.*
 import appshop.util.*
 import appshop.util.ValidationUtils.success
+import org.kodein.di.instance
+import org.redisson.api.RedissonClient
 import kotlin.test.*
 
 class ApplicationTest {
@@ -19,9 +21,6 @@ class ApplicationTest {
             status = 1
         })
         println(save)
-
-
-
     }
 
     @Test
@@ -78,13 +77,11 @@ class ApplicationTest {
         println(ResourceServiceImpl().getAllEnableResourcePath())
         println(ResourceServiceImpl().getAllDisableResourcePath())
     }
+    private val redissonClient by totalDI.instance<RedissonClient>()
 
     @Test
     fun testRoot8(){
-        val departmentDTO = DepartmentDTO(1, "12322222222", "123")
-        println(departmentDTO)
-        val validate = ValidationUtils.validate(departmentDTO)
-        println(validate)
-        println(validate.success())
+        println(redissonClient)
+        println("hello")
     }
 }

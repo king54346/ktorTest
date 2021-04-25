@@ -1,7 +1,7 @@
 package appshop.modules.sys.service
 
 import appshop.modules.sys.dto.*
-import com.sun.org.glassfish.gmbal.*
+import com.sun.org.glassfish.gmbal.Description
 import com.usthe.sureness.provider.*
 
 /**
