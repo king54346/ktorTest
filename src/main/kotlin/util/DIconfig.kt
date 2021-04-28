@@ -5,11 +5,12 @@ import appshop.modules.sys.service.*
 import appshop.modules.sys.service.impl.*
 import com.mysql.cj.jdbc.*
 import com.zaxxer.hikari.*
+import io.lettuce.core.RedisClient
+import io.lettuce.core.api.StatefulRedisConnection
+import io.lettuce.core.api.async.RedisAsyncCommands
 import org.kodein.di.*
 import org.ktorm.database.*
-import org.redisson.Redisson
-import org.redisson.api.RedissonClient
-import org.redisson.config.Config
+
 import kotlin.reflect.jvm.*
 
 /**
@@ -38,11 +39,15 @@ val connDI = DI.Module("connDI"){
         })
     }
     bind<Database>() with singleton { Database.connect(dataSource = instance<HikariDataSource>()) }
-    bind<RedissonClient>() with singleton {
-        val config = Config().apply {
-            useSingleServer().address="redis://127.0.0.1:6379"
-        }
-        Redisson.create(config)
+//    bind<RedissonClient>() with singleton {
+//        val config = Config().apply {
+//            useSingleServer().address="redis://127.0.0.1:6379"
+//        }
+//        Redisson.create(config)
+//    }
+
+    bind<RedisAsyncCommands<String, String>>() with singleton {
+        RedisClient.create("redis://127.0.0.1:6379").connect().async()
     }
 }
 

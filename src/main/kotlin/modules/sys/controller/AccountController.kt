@@ -11,12 +11,17 @@ import io.ktor.application.*
 import io.ktor.request.*
 import io.ktor.response.*
 import io.ktor.routing.*
+import io.lettuce.core.RedisClient
+import io.lettuce.core.SetArgs
+import io.lettuce.core.api.async.RedisAsyncCommands
 import org.kodein.di.*
 import java.util.*
+import java.util.concurrent.TimeUnit
 
 
 class AccountController : KtorRouter {
-    val accountService by totalDI.instance<AccountService>()
+    private val accountService by totalDI.instance<AccountService>()
+    private val redisClient by totalDI.instance<RedisAsyncCommands<String, String>>()
     override fun Routing.route() {
         route("/auth") {
             post("/token") {
@@ -38,10 +43,12 @@ class AccountController : KtorRouter {
                         UUID.randomUUID().toString(), account.username,
                         "tom-auth-server", refreshPeriodTime shr 1, ownRole
                     )
+                    //todo 放入redis
+                    redisClient.set(account.username,jwt, SetArgs().ex(3600))
+
                     if (call.application.log.isDebugEnabled) {
                         call.application.log.debug("issue token success, account: {} -- token: {}", account, jwt)
                     }
-
                     call.respond(R().ok("token" to jwt))
                     return@post finish()
                 } else {
@@ -54,7 +61,6 @@ class AccountController : KtorRouter {
             post("/register") {
                 val account = call.receive<AccountDTO>()
                 val validate = ValidationUtils.validate(account)
-
                 if (validate.success()) {
                     if (accountService.registerAccount(account)) {
                         if (call.application.log.isDebugEnabled) {

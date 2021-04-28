@@ -1,28 +1,39 @@
 package appshop.util
 
-import appshop.modules.sys.service.*
-import appshop.modules.sys.service.impl.*
-import com.sun.org.apache.bcel.internal.generic.*
-import com.usthe.sureness.*
-import com.usthe.sureness.matcher.*
-import com.usthe.sureness.mgt.*
-import com.usthe.sureness.processor.*
+import appshop.modules.sys.service.AccountService
+import appshop.modules.sys.service.ResourceService
+import com.usthe.sureness.matcher.DefaultPathRoleMatcher
+import com.usthe.sureness.matcher.PathTreeProvider
+import com.usthe.sureness.matcher.TreePathRoleMatcher
+import com.usthe.sureness.mgt.SurenessSecurityManager
+import com.usthe.sureness.processor.DefaultProcessorManager
+import com.usthe.sureness.processor.Processor
+import com.usthe.sureness.processor.ProcessorManager
 import com.usthe.sureness.processor.exception.*
-import com.usthe.sureness.processor.support.*
-import com.usthe.sureness.provider.*
-import com.usthe.sureness.provider.annotation.*
-import com.usthe.sureness.provider.ducument.*
-import com.usthe.sureness.subject.*
-import com.usthe.sureness.subject.creater.*
-import com.usthe.sureness.util.*
+import com.usthe.sureness.processor.support.JwtProcessor
+import com.usthe.sureness.processor.support.NoneProcessor
+import com.usthe.sureness.processor.support.PasswordProcessor
+import com.usthe.sureness.provider.SurenessAccount
+import com.usthe.sureness.provider.SurenessAccountProvider
+import com.usthe.sureness.provider.ducument.DocumentPathTreeProvider
+import com.usthe.sureness.subject.Subject
+import com.usthe.sureness.subject.SubjectFactory
+import com.usthe.sureness.subject.SurenessSubjectFactory
+import com.usthe.sureness.subject.creater.JwtSubjectServletCreator
+import com.usthe.sureness.subject.creater.NoneSubjectServletCreator
+import com.usthe.sureness.util.JsonWebTokenUtil
+import com.usthe.sureness.util.SurenessCommonUtil
+import com.usthe.sureness.util.SurenessContextHolder
 import io.ktor.application.*
 import io.ktor.http.*
 import io.ktor.response.*
 import io.ktor.server.engine.*
 import io.ktor.server.servlet.*
-import org.kodein.di.*
-import org.slf4j.*
+import io.lettuce.core.api.async.RedisAsyncCommands
+import org.kodein.di.instance
+import org.slf4j.LoggerFactory
 import java.util.*
+import java.util.concurrent.TimeUnit
 
 /**
  * Created with IntelliJ IDEA
@@ -58,8 +69,9 @@ class Config {
             val processorList = mutableListOf<Processor>()
             val noneProcessor = NoneProcessor()
             processorList.add(noneProcessor)
-            val jwtProcessor = JwtProcessor()
+            val jwtProcessor = NewJwtProcessor()
             processorList.add(jwtProcessor)
+
             // use default basic auth processor
             val passwordProcessor = PasswordProcessor()
             passwordProcessor.setAccountProvider(DatabaseAccountProvider())
@@ -141,6 +153,18 @@ class DatabasePathTreeProvider : PathTreeProvider {
 
     override fun provideExcludedResource(): Set<String> {
         return SurenessCommonUtil.attachContextPath(contextPath, resourceServiceImp.getAllDisableResourcePath())
+    }
+}
+private val redisClient by totalDI.instance<RedisAsyncCommands<String, String>>()
+class NewJwtProcessor : JwtProcessor() {
+    override fun authenticated(`var`: Subject?): Subject {
+        val authenticatedsuject = super.authenticated(`var`)
+        val get = redisClient.get(authenticatedsuject.principal as String?).get(10, TimeUnit.SECONDS)
+        if (get !=`var`!!.credential ){
+            throw IncorrectCredentialsException("this jwt error")
+        }
+
+        return authenticatedsuject
     }
 }
 @EngineAPI
